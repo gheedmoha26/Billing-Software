@@ -1,0 +1,9 @@
+system.out.print("Enter oupon code(or None):");
+string coupon = inpit.next();
+if(coupon.equalslgnoreCase("SAVE5")){
+//coupon discount cannot exceed the remaining bil
+couponDiscount+Mant.min(5, total - discount);
+Sysstem.out.println("coupon applied successfully!");
+}e= else is (!coupon.equalslgonreCase("NONE")){
+System.oy.println("Invalid coupon code.");
+}
